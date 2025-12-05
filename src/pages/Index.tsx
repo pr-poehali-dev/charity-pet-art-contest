@@ -45,7 +45,7 @@ const Index = () => {
       snowflake.className = 'snowflake';
       snowflake.innerHTML = '❄';
       snowflake.style.left = Math.random() * 100 + 'vw';
-      snowflake.style.animationDuration = Math.random() * 3 + 5 + 's';
+      snowflake.style.animationDuration = Math.random() * 5 + 10 + 's';
       snowflake.style.opacity = (Math.random() * 0.5 + 0.3).toString();
       snowflake.style.fontSize = Math.random() * 1 + 1 + 'rem';
       
@@ -73,10 +73,10 @@ const Index = () => {
 
       setTimeout(() => {
         snowflake.remove();
-      }, 8000);
+      }, 15000);
     };
 
-    const interval = setInterval(createSnowflake, 300);
+    const interval = setInterval(createSnowflake, 500);
     return () => clearInterval(interval);
   }, []);
 
