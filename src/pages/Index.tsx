@@ -47,6 +47,28 @@ const Index = () => {
       snowflake.style.left = Math.random() * 100 + 'vw';
       snowflake.style.animationDuration = Math.random() * 3 + 5 + 's';
       snowflake.style.opacity = (Math.random() * 0.5 + 0.3).toString();
+      snowflake.style.fontSize = Math.random() * 1 + 1 + 'rem';
+      
+      snowflake.addEventListener('mouseenter', () => {
+        snowflake.style.transition = 'all 0.3s ease';
+        snowflake.style.transform = 'scale(2) rotate(180deg)';
+        snowflake.style.color = 'rgba(59, 130, 246, 0.9)';
+        
+        setTimeout(() => {
+          snowflake.style.transform = 'scale(0)';
+          setTimeout(() => snowflake.remove(), 300);
+        }, 300);
+      });
+      
+      snowflake.addEventListener('click', () => {
+        const emojis = ['⭐', '✨', '🎄', '🎁', '⛄'];
+        snowflake.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
+        snowflake.style.transition = 'all 0.5s ease';
+        snowflake.style.transform = 'scale(3) rotate(360deg)';
+        snowflake.style.opacity = '0';
+        setTimeout(() => snowflake.remove(), 500);
+      });
+
       document.body.appendChild(snowflake);
 
       setTimeout(() => {
