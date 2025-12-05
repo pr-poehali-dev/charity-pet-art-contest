@@ -305,30 +305,36 @@ const Index = () => {
             <Card className="border-none shadow-xl">
               <CardContent className="p-8 md:p-12">
                 <div className="space-y-6 text-lg text-muted-foreground">
-                  <p>
-                    Приют «Лисена» работает уже более 10 лет и помог найти дом для тысяч бездомных животных. 
-                    Мы верим, что каждое животное заслуживает любви и заботы.
+                  <p className="font-semibold text-foreground text-xl">
+                    Благотворительный фонд помощи бездомным животным
                   </p>
                   <p>
-                    В приюте содержатся собаки, кошки, кролики и другие животные, которые ждут своих хозяев. 
-                    Мы обеспечиваем им ветеринарную помощь, питание и заботу.
+                    Чтобы избежать размножения безнадзорных животных, собак, кошек, избежать увеличения собачьих стай, 
+                    сделать бездомную домашней, избежать проявления агрессии со стороны животных к людям и как следствие 
+                    жестокости со стороны людей к животным, БФПБЖ "Лисена" стерилизует безнадзорных собак, обрабатывает, 
+                    прививает от бешенства и вирусных заболеваний, оказывает ветеринарную помощь травмированным по той или 
+                    иной причине.
                   </p>
                   <p className="font-semibold text-foreground">
-                    Новогодний конкурс рисунков — это наш способ привлечь внимание к проблеме бездомных животных 
-                    и помочь нашим питомцам найти любящие семьи к празднику.
+                    Это главная задача фонда. Новогодний конкурс рисунков — это наш способ привлечь внимание к проблеме 
+                    бездомных животных и помочь нашим питомцам найти любящие семьи к празднику.
                   </p>
-                  <div className="grid sm:grid-cols-3 gap-6 pt-6">
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-6">
                     <div className="text-center">
-                      <div className="text-4xl font-heading font-bold text-primary mb-2">500+</div>
-                      <div className="text-sm text-muted-foreground">Животных нашли дом</div>
+                      <div className="text-4xl font-heading font-bold text-primary mb-2">700+</div>
+                      <div className="text-sm text-muted-foreground">Животных спасено</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-4xl font-heading font-bold text-primary mb-2">10</div>
-                      <div className="text-sm text-muted-foreground">Лет работы</div>
+                      <div className="text-4xl font-heading font-bold text-primary mb-2">200+</div>
+                      <div className="text-sm text-muted-foreground">Нашли свой дом</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-4xl font-heading font-bold text-primary mb-2">30+</div>
-                      <div className="text-sm text-muted-foreground">Питомцев в приюте</div>
+                      <div className="text-4xl font-heading font-bold text-primary mb-2">2</div>
+                      <div className="text-sm text-muted-foreground">Года работы</div>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-4xl font-heading font-bold text-primary mb-2">118</div>
+                      <div className="text-sm text-muted-foreground">Ждут свою семью</div>
                     </div>
                   </div>
                   <div className="flex flex-col gap-4 pt-6 border-t border-border">
