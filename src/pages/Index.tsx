@@ -299,14 +299,14 @@ const Index = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="font-heading font-bold text-3xl md:text-4xl text-foreground mb-4">
-                О нашем приюте
+                О приюте «Лисена»
               </h2>
             </div>
             <Card className="border-none shadow-xl">
               <CardContent className="p-8 md:p-12">
                 <div className="space-y-6 text-lg text-muted-foreground">
                   <p>
-                    Наш приют работает уже более 10 лет и помог найти дом для тысяч бездомных животных. 
+                    Приют «Лисена» работает уже более 10 лет и помог найти дом для тысяч бездомных животных. 
                     Мы верим, что каждое животное заслуживает любви и заботы.
                   </p>
                   <p>
@@ -329,6 +329,24 @@ const Index = () => {
                     <div className="text-center">
                       <div className="text-4xl font-heading font-bold text-primary mb-2">30+</div>
                       <div className="text-sm text-muted-foreground">Питомцев в приюте</div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-4 pt-6 border-t border-border">
+                    <div className="flex items-start gap-3">
+                      <Icon name="MapPin" className="text-primary mt-1 flex-shrink-0" size={20} />
+                      <div>
+                        <p className="font-semibold text-foreground">Адрес приюта:</p>
+                        <p className="text-muted-foreground">Среднеахтубинский район, Волгоградская область</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <Icon name="Globe" className="text-primary mt-1 flex-shrink-0" size={20} />
+                      <div>
+                        <p className="font-semibold text-foreground">Сайт:</p>
+                        <a href="https://fondlisena.ru" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline transition-colors">
+                          fondlisena.ru
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
