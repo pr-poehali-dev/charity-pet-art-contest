@@ -361,7 +361,7 @@ const MainContent = () => {
             </p>
             <div className="pt-6 border-t border-primary-foreground/20">
               <p className="text-sm text-primary-foreground/60">
-                © 2024 Приют для животных. Создано с любовью к нашим питомцам
+                © 2025 Приют для животных. Создано с любовью к нашим питомцам
               </p>
             </div>
           </div>
