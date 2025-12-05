@@ -25,7 +25,7 @@ const MainContent = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Лучшие рисунки будут опубликованы на нашем сайте, а авторы получат дипломы участников и памятные подарки от приюта
+                    Лучшие рисунки будут опубликованы на нашем сайте, а авторы получат дипломы участников и памятные подарки
                   </p>
                 </CardContent>
               </Card>
@@ -302,20 +302,7 @@ const MainContent = () => {
                   <p className="text-sm text-muted-foreground mt-2">Для отправки рисунков</p>
                 </CardContent>
               </Card>
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                    <Icon name="Phone" className="text-primary" size={24} />
-                  </div>
-                  <CardTitle className="font-heading">Телефон</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <a href="tel:+79991234567" className="text-primary hover:underline">
-                    +7 (999) 123-45-67
-                  </a>
-                  <p className="text-sm text-muted-foreground mt-2">Ежедневно с 9:00 до 20:00</p>
-                </CardContent>
-              </Card>
+
               <Card className="hover:shadow-lg transition-shadow">
                 <CardHeader>
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
