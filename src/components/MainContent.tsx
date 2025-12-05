@@ -336,19 +336,24 @@ const MainContent = () => {
         </div>
       </section>
 
-      <footer className="bg-primary text-primary-foreground py-12">
-        <div className="container mx-auto px-4">
+      <footer className="relative bg-primary text-primary-foreground py-12 overflow-hidden">
+        <div className="absolute top-4 left-10 text-3xl opacity-10 animate-float">❄️</div>
+        <div className="absolute bottom-6 right-16 text-2xl opacity-10 animate-float" style={{ animationDelay: '1s' }}>⭐</div>
+        <div className="absolute top-1/2 left-1/4 text-2xl opacity-10 animate-float" style={{ animationDelay: '2s' }}>✨</div>
+        <div className="absolute bottom-10 left-20 text-3xl opacity-10 animate-float" style={{ animationDelay: '0.5s' }}>🎄</div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center space-y-4">
             <div className="flex items-center justify-center gap-2 text-2xl">
               <span>🐾</span>
               <span className="font-heading font-bold">Новогоднее Чудо</span>
+              <span>🎄</span>
             </div>
             <p className="text-primary-foreground/80">
               Благотворительная акция приюта для животных
             </p>
             <div className="pt-6 border-t border-primary-foreground/20">
               <p className="text-sm text-primary-foreground/60">
-                © 2025 Приют для животных. Создано с любовью к нашим питомцам
+                © 2025 Приют для животных. Создано с любовью к нашим питомцам ❄️
               </p>
             </div>
           </div>
