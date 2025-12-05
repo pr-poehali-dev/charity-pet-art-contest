@@ -362,7 +362,63 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contacts" className="py-20 bg-white">
+      <section id="help" className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="font-heading font-bold text-3xl md:text-4xl text-foreground mb-4">
+                Как ещё помочь приюту
+              </h2>
+              <p className="text-lg text-muted-foreground">
+                Есть много способов поддержать наших питомцев
+              </p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6 mb-16">
+              <Card className="border-2 border-primary/20 hover:border-primary/40 hover:shadow-lg transition-all">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                    <Icon name="Heart" className="text-primary" size={24} />
+                  </div>
+                  <CardTitle className="font-heading">Стать опекуном</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    Помогайте конкретному питомцу материально, пока он ищет дом
+                  </p>
+                </CardContent>
+              </Card>
+              <Card className="border-2 border-primary/20 hover:border-primary/40 hover:shadow-lg transition-all">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                    <Icon name="Package" className="text-primary" size={24} />
+                  </div>
+                  <CardTitle className="font-heading">Передать корм</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    Привезите корм, лекарства или другие необходимые вещи
+                  </p>
+                </CardContent>
+              </Card>
+              <Card className="border-2 border-primary/20 hover:border-primary/40 hover:shadow-lg transition-all">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                    <Icon name="Users" className="text-primary" size={24} />
+                  </div>
+                  <CardTitle className="font-heading">Волонтёрство</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    Помогайте выгуливать собак, ухаживать за животными или на мероприятиях
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacts" className="py-20 bg-secondary/20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-12">
@@ -415,7 +471,7 @@ const Index = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    г. Москва, ул. Добрая, д. 15
+                    Среднеахтубинский район, Волгоградская область
                   </p>
                   <p className="text-sm text-muted-foreground mt-2">Приезжайте в гости к нашим питомцам</p>
                 </CardContent>
@@ -429,9 +485,9 @@ const Index = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Вт-Вс: 10:00 - 18:00
+                    Каждый день: 9:00 - 14:00
                   </p>
-                  <p className="text-sm text-muted-foreground mt-2">Понедельник - выходной</p>
+                  <p className="text-sm text-muted-foreground mt-2">Ждём вас в гости!</p>
                 </CardContent>
               </Card>
             </div>
